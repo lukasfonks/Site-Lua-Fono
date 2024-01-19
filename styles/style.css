@@ -30,7 +30,7 @@ h1{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    /* margin:10% 15%; */
+    gap: 82px;
 }
 
 .apresentacao__conteudo{
@@ -117,4 +117,24 @@ h1{
     height: 600;
     color: var(--cor-secundaria);
     text-decoration: none;
+}
+
+@media(max-width:1000px){
+
+    .cabecalho{
+        padding: 6%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
 }
