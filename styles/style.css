@@ -93,12 +93,12 @@ h1{
 }
 
 .rodape{
-    padding: 18px;
+    padding: 5px;
     color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
     text-align: center;
-    font-size: 1.12rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -113,7 +113,7 @@ h1{
 
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     height: 600;
     color: var(--cor-secundaria);
     text-decoration: none;
