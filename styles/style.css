@@ -87,10 +87,19 @@ h1{
     background-color: var(--cor-primaria);
 }
 
-
 .apresentacao__imagem{
     width: 50%;
 }
+
+.principal__background__image{ 
+    background-image: url("assets\crianca-brincando.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+} */
 
 .rodape{
     padding: 5px;
