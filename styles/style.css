@@ -44,6 +44,7 @@ h1{
 .apresentacao__conteudo__titulo{
     font-size: 2rem;
     font-family: var(--fonte-primaria);
+    align-items: center;
 }
 
 .texto-destaque {
@@ -53,6 +54,8 @@ h1{
 .apresentacao__conteudo__texto{
     font-size: 1.25rem;
     font-family: var(--fonte-secundaria);
+    align-items: center;
+
 }
 
 .apresentacao__links__subtitulo{
@@ -97,9 +100,6 @@ h1{
     background-size: contain;
 }
 
-.container{
-    height: 100vh;
-} */
 
 .rodape{
     padding: 5px;
@@ -127,6 +127,30 @@ h1{
     color: var(--cor-secundaria);
     text-decoration: none;
 }
+
+.principal {
+    /* background-image: url("assets\crianca-brincando.jpg"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
 
 @media(max-width:1000px){
 
